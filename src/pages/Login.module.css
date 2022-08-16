@@ -1,0 +1,83 @@
+.wrapperLogin {
+  position: relative;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-image: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
+  border-radius: 20px;
+
+  box-shadow: 5px 5px 12px -1px rgba(0, 0, 0, 0.1);
+
+  overflow: hidden;
+}
+
+.wrapperLogin form {
+  padding: 20px 20px 50px 20px;
+  width: 94%;
+  border-radius: 20px;
+  gap: 10px;
+  z-index: 120;
+}
+
+.wrapperLogin input {
+  /* display: block;
+
+  /* padding: 5px 5px; */
+  width: 300px;
+  z-index: 120;
+}
+
+/* .wrapperLogin label {
+  font-weight: 400;
+  display: block;
+  margin-top: 10px;
+  z-index: 120;
+} */
+
+.wrapperLogin button {
+  padding: 15px 10px;
+  margin-top: 15px;
+
+  border: none;
+  display: block;
+  width: 300px;
+
+  background-color: royalblue;
+  color: #fff;
+
+  font-weight: 700;
+
+  cursor: pointer;
+  border-radius: 5px;
+
+  transition: 0.3s;
+
+  transition: 0.3s;
+  z-index: 120;
+}
+
+.wrapperLogin button:hover {
+  background-color: #432bb8;
+}
+
+.title {
+  position: absolute;
+  color: #242424;
+  font-size: 40px;
+}
+
+.titleBackground {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: -8%;
+  bottom: -40%;
+  opacity: 0.05;
+
+  /* font-size: 370px; */
+  z-index: 0;
+  /* writing-mode: vertical-lr; */
+
+  transition: 0.3s;
+}

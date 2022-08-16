@@ -1,0 +1,50 @@
+.deleteBtn {
+  margin-left: 20px;
+
+  font-weight: 600;
+  padding: 4px 15px;
+  color: rgb(78, 95, 148);
+  /* background-color: rgba(184, 197, 230, 0.336); */
+
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid rgba(65, 105, 225, 0.144);
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.deleteBtn:hover {
+  background-color: royalblue;
+  color: #fff;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+  border: 1px solid rgba(65, 105, 225, 0.144);
+  padding: 10px 5px;
+
+  border-radius: 5px;
+}
+
+.item span:nth-child(1) {
+  width: 70px;
+  color: rgb(78, 95, 148);
+  font-weight: 600;
+}
+
+.item span:nth-child(2) {
+  font-weight: 500;
+  font-size: 14px;
+
+  color: rgb(78, 95, 148);
+
+  transition: 0.3s;
+}
+
+.item span:nth-child(2):hover {
+  color: royalblue;
+  cursor: pointer;
+}

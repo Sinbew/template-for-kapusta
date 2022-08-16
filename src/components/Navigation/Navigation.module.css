@@ -1,0 +1,83 @@
+.navContainer {
+  background: #6a75c2;
+  /* background-color: rgb(83, 51, 228); */
+  padding: 0px 20px 0px 40px;
+  overflow: hidden;
+  position: relative;
+  z-index: 200;
+
+  /* background: linear-gradient(
+    to right,
+    rgba(87, 101, 255, 0.4),
+    rgba(102, 36, 255, 0.6)
+  ); */
+
+  background-image: linear-gradient(to bottom, #dfe9f3 0%, white 100%);
+
+  width: 30%;
+  height: 95vh;
+  box-shadow: 5px 5px 12px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  /* background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(100px); */
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  height: 90%;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+}
+
+.nav a {
+  /* color: white; */
+
+  font-size: 22px;
+  transition: 0.3s;
+}
+
+.btn {
+  /* position: absolute;
+  bottom: 20%; */
+  padding: 10px 10px;
+  width: 100px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(65, 105, 225, 0.349);
+  border: none;
+  border-radius: 5px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+  z-index: 100;
+
+  transition: 0.3s;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #4828ff;
+}
+
+.navLink {
+  color: rgb(58, 58, 58);
+}
+
+.activeNavLink {
+  color: royalblue;
+
+  transform: scale(1.05);
+}
+
+.png {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  width: 150%;
+
+  opacity: 0.07;
+  filter: saturate(0);
+}
